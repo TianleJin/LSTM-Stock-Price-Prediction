@@ -12,7 +12,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 
 # reading input file
-df = pd.read_csv('./Data/Z1P-AX.csv')
+df = pd.read_csv('./Data/Z1P.AX.csv')
 df['Date'] = pd.to_datetime(df['Date'], format='%Y-%m-%d')
 df = df.set_index('Date')
 prints('Sampling data...')
@@ -41,8 +41,8 @@ data = scaler.transform(data)
 # data parameters
 look_back = 7
 look_ahead = 10
-train_size = int(0.6 * len(data))
-valid_size = int(0.2 * len(data))
+train_size = int(0.60 * len(data))
+valid_size = int(0.20 * len(data))
 
 
 # synthesis training data
@@ -71,7 +71,7 @@ print()
 history = model.fit(
     x_train, 
     y_train, 
-    epochs=20, 
+    epochs=15, 
     batch_size=len(x_train), 
     validation_data=(x_valid, y_valid),
     shuffle=False
