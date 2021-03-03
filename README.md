@@ -10,7 +10,7 @@ Run the following commands in your terminal.
 - pip install sklearn
 
 # Run
-1. Create a directory called Data in the project directory.
+1. Create a directory called **Data** in the project directory.
 2. Find the ASX code of your company.
 3. Go to Yahoo Finance and download the time series data for your company into the Data directory.
-4. Run *python main.py* in your terminal.
+4. Run **python main.py** in your terminal.
