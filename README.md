@@ -12,7 +12,6 @@ Run the following commands in your terminal.
 # Run
 1. Create a directory named Data in the project directory.
 2. Find the ASX code of your company.
-3. Go to https://au.finance.yahoo.com/ and download the daily time-series data spreadsheet for your company.
+3. Go to https://au.finance.yahoo.com and download the daily time-series data spreadsheet for your company.
 4. Move the time-series spreadsheet into your Data directory.
-5. In your terminal, run 
-> python main.py
+5. In your terminal, run python main.py command.
