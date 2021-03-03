@@ -3,11 +3,11 @@ A python application which predicts and visualises ASX stock market prices using
 
 # Dependencies
 Run the following commands in your terminal.
--pip install numpy
--pip install pandas
--pip install matplotlib
--pip install tensorflow
--pip install sklearn
+- pip install numpy
+- pip install pandas
+- pip install matplotlib
+- pip install tensorflow
+- pip install sklearn
 
 # Run
 1. Create a directory called Data in the project directory.
